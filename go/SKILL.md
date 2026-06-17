@@ -1,6 +1,6 @@
 ---
 name: go
-description: Go 后端开发指南，涵盖 API 服务、并发、错误处理与项目结构。在用户编写或修改 Go 服务、handler、repository、中间件时使用
+description: Go 后端开发指南，涵盖 API 服务、并发、错误处理与项目结构。在用户编写或修改 Go 服务、handler、repository、中间件时使用。
 ---
 
 # Go 编程指南

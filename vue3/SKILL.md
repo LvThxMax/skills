@@ -1,6 +1,6 @@
 ---
 name: vue3
-description: Vue 3 前端开发指南，涵盖 Composition API、Pinia、Vue Router、Vite。在用户编写或修改 Vue 3 页面、组件、状态、路由时使用
+description: Vue 3 前端开发指南，涵盖 Composition API、Pinia、Vue Router、Vite。在用户编写或修改 Vue 3 页面、组件、状态、路由等前端代码时使用。
 ---
 
 # Vue 3 编程指南
@@ -38,14 +38,14 @@ description: Vue 3 前端开发指南，涵盖 Composition API、Pinia、Vue Rou
 
 - 默认 `scoped`；穿透用 `:deep()`
 - 类名语义化、扁平化；状态类用 `is-` / `has-` 前缀
-- 颜色间距用 CSS 变量 / 设计 token，避免内联 style
+- 颜色、间距用 CSS 变量 / 设计 token，避免内联 style
 
 ## 性能要点
 
 - 页面：`() => import('@/views/Xxx.vue')`
 - `v-for` 用唯一 id 作 key，不用 index
 - 频繁显隐用 `v-show`，条件极少满足用 `v-if`
-- 模板内不写复杂表达式，过滤/排序放 `computed`
+- 模板内不写复杂表达式，过滤 / 排序放 `computed`
 - 副作用在 `onUnmounted` 或 composable 内清理
 
 ## 扩展要点
